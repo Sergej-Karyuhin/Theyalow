@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+header {
+  background-image: url(assets/header_background.png);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  padding-top: 30px;
+  width: 1020px;
+  margin: 0 auto;
+}
+.logo {
+  display: flex;
+}
+.logo h1 {
+  align-self: center;
+  font-family: ﻿LucidaSans, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  font-size: 41px;
+  color: rgba(255, 255, 255, 255);
+  text-transform: uppercase;
+}
+.logo_img {
+  height: 79px;
+  width: 79px;
+  background-image: url(assets/logo1.png), url(assets/logo2.png);
+  background-position: center;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 453px;
+  height: 41px;
+  margin-top: 40px;
+  background-color: #f5c506;
+  box-shadow: -4px -4px 0 rgba(245, 197, 6, 0.3), -8px -8px 0 rgba(245, 197, 6, 0.3);
+}
+.menu {
+  display: flex;
+  list-style: none;
+}
+.menu a {
+  text-decoration: none;
+  margin-left: 9px;
+  font-family: ﻿SegoeWP, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  font-size: 17px;
+  color: rgba(155, 125, 8, 255);
+  text-transform: uppercase;
+}
+.menu_item {
+  display: flex;
+  align-items: center;
+  padding: 0 18px;
+  border-right: 1px solid #dcb105;
+}
