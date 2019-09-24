@@ -6,6 +6,9 @@ body {
   max-width: 1300px;
   margin: 0 auto;
 }
+
+/*HEADER 1st part*/
+
 header {
   background-image: url(assets/header_background.png);
 }
@@ -59,4 +62,31 @@ header {
   align-items: center;
   padding: 0 18px;
   border-right: 1px solid #dcb105;
+}
+
+/*HEADER 2nd part*/
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  width: 1020px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 56px 0 71px;
+}
+.banner_video {
+  padding-left: 10px;
+}
+.banner_title {
+  font-family: ﻿Asap-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  font-size: 63px;
+  color: rgba(245, 197, 6, 255);
+  text-transform: uppercase;
+  text-align: center;
+
+  align-self: center;
+  padding-bottom: 20px;
+}
+.banner_title_subtitle {
+  color: #ffffff;
 }
