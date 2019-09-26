@@ -293,3 +293,71 @@ footer {
   color: rgba(255, 255, 255, 255);
   text-transform: uppercase;
 }
+
+/*----------------------------------------------------------------------------*/
+/*--------------------   Mobile version(640px)   -----------------------------*/
+/*----------------------------------------------------------------------------*/
+
+@media all and (max-width: 640px) {
+  .banner_title, .free_content_text, .twitter_title {
+    display: none;
+  }
+}
+
+@media all and (max-width: 640px) {
+  .header, .banner_video, .banner {
+    padding: 0;
+  }
+  .advantages_item {
+    border: 0;
+  }
+  .nav {
+    margin: 0;
+    box-shadow: none;
+  }
+}
+
+
+
+
+@media all and (max-width: 640px) {
+  .wrapper {
+    max-width: 100%;
+  }
+  .banner_video {
+    width: 100%;
+    background-color: black;
+  }
+  .twitter_string_content_text {
+    max-width: 299px;
+  }
+  .twitter_string {
+    flex-wrap: wrap;
+  }
+  .logo {
+    max-width: 186px;
+    max-height: 62px;
+  }
+  .logo h1 {
+    font-size: 70%;
+  }
+  .nav {
+    max-width: 455px;
+    width: 100%;
+  }
+  .logo_img {
+    background-image: url(assets/footer_logo.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+  .free_content_img {
+    margin: 0 auto;
+    max-width: 80%;
+    padding-top: 30px
+  }
+  .free {
+    font-size: 70%;
+    background-image: none;
+    background-color: #474747;
+  }
+}
