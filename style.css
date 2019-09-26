@@ -95,6 +95,7 @@ header {
 .advantages {
   height: 212px;
   background-color: #f0f0f0;
+  box-shadow: 0px -5px 5px -1px #3E3F42, 0px 5px 5px -1px #3E3F42;
 }
 .advantages ul {
   display: flex;
@@ -261,4 +262,23 @@ header {
 }
 .free_content_text_item:last-child {
   margin-bottom: -10px;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: #4c4c4c;
+  box-shadow: 0 -4px 7px #1a1a1a;
+}
+.footer_content {
+  display: flex;
+  align-items: center;
+  height: 64px;
+}
+.footer_content_text {
+  margin-left: 9px;
+  font-family: ﻿LucidaSans-Italic, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  font-size: 29px;
+  color: rgba(255, 255, 255, 255);
+  text-transform: uppercase;
 }
