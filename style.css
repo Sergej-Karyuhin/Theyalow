@@ -27,7 +27,11 @@ header {
 }
 .logo h1 {
   align-self: center;
-  font-family: ﻿LucidaSans, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  margin-top: 7px;
+  margin-left: 7px;
+  font-family: 'Lucida Sans';
+  font-style: italic;
+  font-weight: normal;
   font-size: 41px;
   color: rgba(255, 255, 255, 255);
   text-transform: uppercase;
@@ -54,7 +58,7 @@ header {
 .menu a {
   text-decoration: none;
   margin-left: 9px;
-  font-family: ﻿SegoeWP, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  font-family: 'Segoe WP';
   font-size: 17px;
   color: rgba(155, 125, 8, 255);
   text-transform: uppercase;
@@ -77,14 +81,14 @@ header {
   padding-left: 10px;
 }
 .banner_title {
-  font-family: ﻿Asap-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  align-self: center;
+  margin-bottom: 25px;
+  margin-right: 22px;
+  font-family: 'Asap';
   font-size: 63px;
   color: rgba(245, 197, 6, 255);
   text-transform: uppercase;
   text-align: center;
-
-  align-self: center;
-  padding-bottom: 20px;
 }
 .banner_title_subtitle {
   color: #ffffff;
@@ -116,7 +120,8 @@ header {
   padding-top: 40px;
 }
 .advantages_item_text {
-  font-family: ﻿SegoeUI-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  font-family: 'Segoe UI';
+  font-weight: 300;
   font-size: 27px;
   color: rgba(0, 0, 0, 255);
   text-align: center;
@@ -127,8 +132,9 @@ header {
 /*MAIN, section twitter*/
 
 .twitter_title {
-  padding: 42px 0;
-  font-family: ﻿PTSans-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  padding: 32px 0;
+  font-family: 'PT Sans';
+  font-weight: normal;
   font-size: 37px;
   color: rgba(255, 255, 255, 255);
   text-transform: uppercase;
@@ -152,8 +158,9 @@ header {
   height: 233px;
 }
 .twitter_string_content_text p {
-  padding: 25px 38px 34px 31px;
-  font-family: ﻿SegoeWP-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  padding: 15px 38px 34px 31px;
+  font-family: 'Segoe WP';
+  font-weight: 200;
   font-size: 29px;
   color: rgba(255, 255, 255, 255);
   text-align: left;
@@ -171,6 +178,7 @@ header {
   position: absolute;
   top: 20px;
   right: 19px;
+  font-family: 'Segoe WP';
   font-size: 24px;
   font-weight: 100;
   color: white;
@@ -193,14 +201,15 @@ header {
   background-color: #ddb101;
 }
 .twitter_date_item0 {
-  font-family: ﻿SegoeUI-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  margin-bottom: -10px;
+  font-family: 'Segoe UI';
   font-size: 51px;
   font-weight: 900;
   color: rgba(255, 255, 255, 255);
 }
 .twitter_date_item1 {
-  font-family: ﻿SegoeUI, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
-  font-size: 18px;
+  font-family: 'Segoe UI';
+  font-size: 20px;
   color: rgba(178, 101, 41, 255);
 }
 .twitter_slide {
@@ -227,7 +236,8 @@ header {
 }
 .free_title {
   padding: 40px 0 5px;
-  font-family: ﻿PTSans-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  font-family: 'PT Sans';
+  font-weight: 400;
   font-size: 43px;
   color: rgba(245, 197, 6, 255);
   text-transform: uppercase;
@@ -245,7 +255,7 @@ header {
 .free_content_text_item {
   padding-top: 22px;
   position: relative;
-  font-family: ﻿PTSans-Regular, ﻿OpenSans, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  font-family: 'PT Sans';
   font-size: 23px;
   color: rgba(169, 169, 167, 255);
   letter-spacing: 1px;
@@ -277,7 +287,8 @@ footer {
 }
 .footer_content_text {
   margin-left: 9px;
-  font-family: ﻿LucidaSans-Italic, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  font-family: 'Lucida Sans';
+  font-style: italic;
   font-size: 29px;
   color: rgba(255, 255, 255, 255);
   text-transform: uppercase;
