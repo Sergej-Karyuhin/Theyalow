@@ -299,7 +299,9 @@ footer {
 /*----------------------------------------------------------------------------*/
 
 @media all and (max-width: 640px) {
-  .banner_title, .free_content_text, .twitter_title {
+  .banner_title, .free_content_text, .twitter_title,
+  .twitter_slide, .twitter_date,
+  .twitter_string_img_item0, .twitter_string_img_item1 {
     display: none;
   }
 }
@@ -313,51 +315,82 @@ footer {
   }
   .nav {
     margin: 0;
+  }
+  .advantages, .nav {
     box-shadow: none;
   }
 }
 
-
-
-
 @media all and (max-width: 640px) {
-  .wrapper {
-    max-width: 100%;
-  }
   .banner_video {
     width: 100%;
     background-color: black;
   }
+  .logo {
+    width: 186px;
+    height: 62px;
+    background: linear-gradient(#5a5a5a, #444444);
+  }
+  .logo_img {
+    background-image: url(assets/footer_logo.png);
+    background-repeat: no-repeat;
+    background-size: 38px;
+    margin-top: -5px;
+  }
+  .logo h1 {
+    padding-right: 20px;
+    font-size: 100%;
+  }
+  .nav {
+    width: 455px;
+    height: 62px;
+  }
+  .advantages {
+    height: 174px;
+    display: flex;
+  }
+  .advantages_item img {
+    width: 40%;
+  }
+  .advantages_item_text {
+    font-size: 150%;
+  }
+  .twitter {
+    height: 100%;
+    background-image: none;
+  }
   .twitter_string_content_text {
-    max-width: 299px;
+    width: 299px;
+    height: 232px;
+  }
+  .twitter_string_content_text p {
+    font-size: 165%;
   }
   .twitter_string {
     flex-wrap: wrap;
   }
-  .logo {
-    max-width: 186px;
-    max-height: 62px;
+  .twitter_string_content_text {
+    margin-right: 8px;
   }
-  .logo h1 {
-    font-size: 70%;
+  .twitter_string_img {
+    margin-top: 9px;
+    background-color: #f5c507;
   }
-  .nav {
-    max-width: 455px;
-    width: 100%;
-  }
-  .logo_img {
-    background-image: url(assets/footer_logo.png);
-    background-size: 50%;
-    background-repeat: no-repeat;
-  }
-  .free_content_img {
-    margin: 0 auto;
-    max-width: 80%;
-    padding-top: 30px
-  }
+
   .free {
-    font-size: 70%;
+    height: 100%;
     background-image: none;
     background-color: #474747;
+  }
+  .free_content_img {
+    margin: 20px auto 55px;
+  }
+  footer img {
+    margin-left: 65px;
+    width: 29px;
+    height: 29px;
+  }
+  .footer_content_text {
+    font-size: 100%;
   }
 }
