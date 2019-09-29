@@ -70,6 +70,10 @@ header {
   border-right: 1px solid #dcb105;
 }
 
+.menu_item:hover {
+  background-color: #0B3218;
+}
+
 /*HEADER 2nd part*/
 
 .banner {
@@ -192,6 +196,11 @@ header {
   font-weight: 900;
   color: white;
 }
+.twitter_string_content_text span:hover,
+.twitter_string_img_item1:hover {
+  color: #0B3218;
+  font-size: 300%;
+}
 .twitter_date {
   display: flex;
   flex-direction: column;
@@ -300,8 +309,7 @@ footer {
 
 @media all and (max-width: 640px) {
   .banner_title, .free_content_text, .twitter_title,
-  .twitter_slide, .twitter_date,
-  .twitter_string_img_item0, .twitter_string_img_item1 {
+  .twitter_slide, .twitter_date, .twitter_string_img {
     display: none;
   }
 }
@@ -318,6 +326,78 @@ footer {
   }
   .advantages, .nav {
     box-shadow: none;
+  }
+}
+
+@media all and (max-width: 640px) {
+  .mobile_block {
+    display: flex;
+    margin-top: 9px;
+    width: 100%;
+    height: 233px;
+    background-color: #f5c507;
+  }
+  .mobile_block_img {
+    width: 324px;
+    height: 233px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile_block_tweet {
+    width: 323px;
+    height: 233px;
+  }
+  .mobile_block_tweet_message {
+    width: 284px;
+    height: 42px;
+    margin-bottom: 14px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .mobile_block_tweet_message:first-child {
+    margin-top: 24px;
+  }
+  .mobile_block_tweet_message:nth-child(2) {
+    background-color: #fceeb5;
+  }
+  .mobile_block_tweet_message:nth-child(3) {
+    background-color: #fbe89c;
+  }
+  .mobile_block_tweet_message_container {
+    width: 217px;
+    height: 28px;
+    padding-top: 9px;
+    padding-left: 27px;
+  }
+  .mobile_block_tweet_message_container_text {
+    font-size: 13px;
+    font-family: sans-serif;
+    color: rgba(143, 142, 142, 255);
+  }
+  .mobile_block_tweet_form {
+    display: flex;
+    width: 270px;
+    height: 29px;
+  }
+  .mobile_block_tweet_form_input {
+    width: 200px;
+    height: 29px;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #d0a806;
+  }
+  .mobile_block_tweet_form_submit {
+    width: 70px;
+    height: 31px;
+    border-radius: 0 10px 10px 0;
+    border: 1px solid #d0a806;
+    background-color: #d89614;
+    color: white;
+  }
+}
+@media all and (min-width: 641px) {
+  .mobile_block {
+    display: none;
   }
 }
 
@@ -372,11 +452,6 @@ footer {
   .twitter_string_content_text {
     margin-right: 8px;
   }
-  .twitter_string_img {
-    margin-top: 9px;
-    background-color: #f5c507;
-  }
-
   .free {
     height: 100%;
     background-image: none;
